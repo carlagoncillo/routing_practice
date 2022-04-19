@@ -1,0 +1,35 @@
+// import React from "react";
+// import {useParams} from 'react-router-dom';
+
+// const Word = (props) => {
+
+//     const {word} = useParams()
+//     console.log(word);
+
+//     return(
+//         <h1 style={{textAlign: "center"}}>
+//             {!isNaN(word) ? "The number is: " + word : "The word is: " + word}
+//             {/* not is not a number truthy means if it IS true do this, if its not then : do this */}
+//         </h1>
+//     )
+// }
+// export default Word 
+
+
+// --------------
+
+import React from "react";
+import { useParams } from 'react-router-dom';
+
+// const Input = (props) => {
+
+//     const {i} = useParams()
+//     console.log(i);
+
+//     return(
+//         <h1 style={{textAlign: "center"}}>
+//             {!isNaN(i) ? "The number is: " + i : "The word is: " + i}
+//         </h1>
+//     )
+// }
+// export default Input
